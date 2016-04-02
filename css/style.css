@@ -8,7 +8,7 @@
 	max-width: 100%;
 }
 
-/********** Text Styles **********/
+/******************** Text Styles ********************/
 
 body {
 	font-family: 'Raleway', sans-serif;
@@ -43,7 +43,7 @@ p {
 
 
 
-/********** COLORS **********/
+/******************** Colors ********************/
 
 /*teal 5CD6D4*/
 /*purple B563AA*/
@@ -53,17 +53,16 @@ p {
 
 header {
 	background-color: rgba(255, 255, 255, .2);
-	
 }
 
 #hero {
 	padding-top: -150px;
 	vertical-align: top;
 	color: #EAEAEA;
-	background-color: #5CD6D4;
 }
 
-/*hero color cycle*/
+/***** hero color cycle *****/
+
 #hero {
   animation: colorchange 50s; /* animation-name followed by duration in seconds*/
      /* you could also use milliseconds (ms) or something like 2.5s */
@@ -96,6 +95,8 @@ header {
   100% {background: #5CD6D4;}
 }
 
+
+/***** Section Colors *****/
 #about {
 	/*background-color: #E4FDE1;*/
 	border-left: #C5EA6D 20px solid;
@@ -125,7 +126,9 @@ footer {
 
 
 
-/********** Layout **********/
+/******************** Layout ********************/
+
+/********** Header/Hero **********/
 
 header {
 	display: block;
@@ -193,16 +196,18 @@ nav a:hover {
 	margin-left: 2%;
 }
 
-/*----- Accordion -----*/
+
+
+/***** Accordion *****/
  
 .accordion {
     overflow:hidden;
     /*box-shadow:0px 1px 3px rgba(0,0,0,0.25);*/
     border-radius:3px;
-    /*background:#f7f7f7;*/
 }
  
-/*----- Section Titles -----*/
+/*** Section Titles ***/
+
 .accordion-section-title {
     width: 100%;
     padding: 2em 1em;
@@ -218,7 +223,6 @@ nav a:hover {
 }
  
 .accordion-section-title.active {
-    /*background: #4F74C7;*/
     background-color: rgba(79, 116, 199, .08);
     color: #444;
     font-weight: 500;
@@ -233,7 +237,8 @@ nav a:hover {
     border-bottom: none;
 }
  
-/*----- Section Content -----*/
+/*** Section Content ***/
+
 .accordion-section-content {
     padding: 35px 15px 25px 15px;
     display: none;
@@ -262,19 +267,15 @@ nav a:hover {
 	width: 50%;
 	text-align: center;
 	margin-left: 2%;
-	background-color: #4F74C7;
 	color: white;
-	/*background: url('../images/computer.png') top no-repeat;*/
 	background-size: contain;
-}
-
-.computer {
 }
 
 .computer-screen {
 	border: solid 40px #333333;
 	border-top-left-radius: 40px;
 	border-top-right-radius: 40px;
+	background-color: #7D7C7F;
 	height: 550px;
 	margin: auto;
 	overflow: scroll;
@@ -287,13 +288,13 @@ nav a:hover {
 }
 
 .screencap {
+
 	width: 100%;
 	display: block;
 }
 
 
-
-/********** FOOTER **********/
+/********** Footer **********/
 
 
 footer {
@@ -342,7 +343,6 @@ footer li {
 
 .buttons {
 	text-decoration: none;
-	/*text-transform: uppercase;*/
 	letter-spacing: 2px;
 }
 
@@ -351,7 +351,6 @@ footer li {
 	display: inline-block;
 	width: 100%;
 	padding: 10px 20px;
-
 }
 
 #linkedin {
