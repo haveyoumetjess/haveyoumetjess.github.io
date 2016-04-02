@@ -65,8 +65,7 @@ header {
 /***** hero color cycle *****/
 
 #hero {
-  animation: gradientanim 15s infinite; /* animation-name followed by duration in seconds*/
-     /* you could also use milliseconds (ms) or something like 2.5s */
+  animation: gradientanim 15s infinite; /* animation-name, duration, infinite repeat*/
   -webkit-animation: gradientanim 15s infinite; /* Chrome and Safari */
 }
 
@@ -99,17 +98,14 @@ header {
 
 /***** Section Colors *****/
 #about {
-	/*background-color: #E4FDE1;*/
 	border-left: #C5EA6D 20px solid;
 }
 
 #work {
-	/*background-color: #456990;*/
 	border-left: #4F74C7 20px solid;
 }
 
 #stats {
-	/*background-color: #F45B69;*/
 	border-left: #B563AA 20px solid;
 	padding-bottom: 150px;
 }
