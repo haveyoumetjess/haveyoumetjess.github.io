@@ -19,7 +19,7 @@ $(document).ready(function() {
             close_accordion_section();
             // Switch image
             $('.screencap').attr('src', 'images/preview' + clientNum  + '.jpg');
-            console.log($('.screencap').attr('src'));
+            // console.log($('.screencap').attr('src'));
             // Add active class to section title
             $(this).addClass('active');
             // Open up the hidden content panel
