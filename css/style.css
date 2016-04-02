@@ -65,12 +65,12 @@ header {
 /***** hero color cycle *****/
 
 #hero {
-  animation: colorchange 15s infinite; /* animation-name followed by duration in seconds*/
+  animation: gradientanim 15s infinite; /* animation-name followed by duration in seconds*/
      /* you could also use milliseconds (ms) or something like 2.5s */
-  -webkit-animation: colorchange 15s infinite; /* Chrome and Safari */
+  -webkit-animation: gradientanim 15s infinite; /* Chrome and Safari */
 }
 
-@keyframes colorchange
+@keyframes gradientanim
 {
   0%   {background: #5CD6D4;} /*teal*/
   5%   {background: #5CD6D4;} /*teal*/
@@ -83,7 +83,7 @@ header {
   100% {background: #5CD6D4;} /*teal*/
 }
 
-@-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+@-webkit-keyframes gradientanim /* Safari and Chrome - necessary duplicate */
 {
   0%   {background: #5CD6D4;}
   15%  {background: #5CD6D4;}
